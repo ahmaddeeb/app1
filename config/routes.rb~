@@ -1,9 +1,14 @@
 App1::Application.routes.draw do
   resources :tasks
 
-
+  resources :posts
 
 
 root :to => 'tasks#index'
+
+
+
+end
+
 
   end
